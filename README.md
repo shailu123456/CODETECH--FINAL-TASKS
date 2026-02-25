@@ -19,12 +19,19 @@ Platform: Windows / Linux
 
 ## 🚀 Internship Tasks
 
-### 🔹 Task 1 – File Handling Program
+# 📁 Task 1 – File Handling Program
 
-Write a program to create, read, write, and append data to a file.  
-Deliverable: A C program demonstrating various file operations.
+## 📌 Internship: CODTECH – C Programming
 
-Concepts Used:
+### 📖 Task Description
+Write a program to create, read, write, and append data to a file.
+
+### 🎯 Deliverable
+A C program demonstrating various file operations.
+
+---
+
+## 🛠 Concepts Used
 - fopen()
 - fclose()
 - fprintf()
@@ -32,64 +39,140 @@ Concepts Used:
 - fgets()
 - File modes (r, w, a)
 
-Run:
-```bash
+---
 
+## ▶ How to Compile and Run
+
+```bash
 ```
 gcc file_handling.c -o file
 ./file
-🔹 Task 2 – Linked List Implementation
+
+---
+
+
+
+# ✅ README FOR TASK 2
+
+```markdown
+```
+# 🔗 Task 2 – Linked List Implementation
+
+## 📌 Internship: CODTECH – C Programming
+
+### 📖 Task Description
 Create a program to implement a Singly Linked List with operations like insertion, deletion, and traversal.
-Deliverable: A modular and efficient Linked List implementation.
-Operations Implemented:
-Insertion at Beginning
-Insertion at End
-Insertion at Position
-Deletion at Beginning
-Deletion at End
-Deletion at Position
-Displaying the List
-Run:
-Bash
-Copy code
+
+### 🎯 Deliverable
+A modular and efficient linked list implementation.
+
+---
+
+## 🛠 Operations Implemented
+- Insertion at Beginning
+- Insertion at End
+- Insertion at Position
+- Deletion at Beginning
+- Deletion at End
+- Deletion at Position
+- Displaying the List
+
+---
+
+## 🧠 Concepts Used
+- Structures (struct)
+- Pointers
+- Dynamic Memory Allocation (malloc, free)
+- Modular Functions
+
+---
+
+## ▶ How to Compile and Run
+
+```bash
+```
 gcc linked_list.c -o list
 ./list
-🔹 Task 3 – Compiler Design Basics (Lexical Analyzer)
+
+---
+
+# ✅ README FOR TASK 3
+
+```markdown
+```
+# 🧠 Task 3 – Compiler Design Basics (Lexical Analyzer)
+
+## 📌 Internship: CODTECH – C Programming
+
+### 📖 Task Description
 Build a simple lexical analyzer that identifies keywords, identifiers, operators, numbers, and special symbols from an input file.
-Deliverable: A program demonstrating lexical analysis with sample outputs.
-Concepts Used:
-File Handling
-String Manipulation
-Token Classification
-Basic Compiler Design
-Run:
-Bash
-Copy code
+
+### 🎯 Deliverable
+A program demonstrating lexical analysis with sample outputs.
+
+---
+
+## 🛠 Concepts Used
+- File Handling
+- String Manipulation
+- Token Classification
+- Basic Compiler Design
+
+---
+
+## 🔍 Tokens Identified
+- Keywords
+- Identifiers
+- Operators
+- Numbers
+- Special Symbols
+
+---
+
+## ▶ How to Compile and Run
+
+```bash
+
+```
 gcc lexical_analyzer.c -o lexer
 ./lexer
-🔹 Task 4 – Data Compression Tool (Run-Length Encoding)
+
+---
+
+# ✅ README FOR TASK 4
+
+```markdown
+```
+# 📦 Task 4 – Data Compression Tool (Run-Length Encoding)
+
+## 📌 Internship: CODTECH – C Programming
+
+### 📖 Task Description
 Write a program to implement a basic data compression algorithm like Run-Length Encoding (RLE).
-Deliverable: A tool that compresses and decompresses text files.
-Features:
-Compresses repeated characters
-Decompresses compressed text
-Works with text files
-Concepts Used:
-File Handling
-Algorithm Implementation
-String Processing
-Run:
-Bash
-Copy code
+
+### 🎯 Deliverable
+A tool that compresses and decompresses text files.
+
+---
+
+## ✨ Features
+- Compresses repeated characters
+- Decompresses compressed text
+- Works with text files
+
+---
+
+## 🛠 Concepts Used
+- File Handling
+- Algorithm Implementation
+- String Processing
+
+---
+
+## ▶ How to Compile and Run
+
+```bash
+```
 gcc rle.c -o rle
 ./rle
-📂 Project Structure
-Bash
-Copy code
-codtech-c-programming/
-│
-├── file_handling.c
-├── linked_list.c
-├── lexical_analyzer.c
-├── rle.c
-└── README.md
+
