@@ -1,45 +1,34 @@
-# 💼 CODTECH Internship – C Programming Projects
-
-This repository contains all the completed tasks assigned during the **CODTECH Internship Program**.  
-Each task is implemented in **C language** with proper modular structure and comments.
-
----
-
-## 📌 Internship Details
-
-- **Organization:** CODTECH  
-- **Intern:** Varthyavath Shailaja  
-- **Domain:** C Programming  
-- **Language Used:** C  
-- **Compiler:** GCC  
-- **Platform:** Windows / Linux  
-
----
-
-# ✅ Task 1 – File Handling Program
-
-## 📖 Description
+💼 CODTECH Internship – C Programming Projects
+This repository contains all the completed tasks assigned during the CODTECH Internship Program at CODTECH.
+All programs are implemented in C language using a modular approach with proper comments and structured coding practices.
+👩‍💻 Intern Details
+Name: Varthyavath Shailaja
+Organization: CODTECH
+Domain: C Programming
+Programming Language: C
+Compiler Used: GCC
+Platform: Windows / Linux
+📂 Project Tasks Overview
+✅ Task 1 – File Handling Program
+📖 Description
 A C program demonstrating various file operations:
-- Creating a file
-- Writing data to a file
-- Reading data from a file
-- Appending data to a file
-
-## 🛠 Concepts Used
-- `fopen()`
-- `fclose()`
-- `fprintf()`
-- `fscanf()`
-- `fgets()`
-- File modes (`r`, `w`, `a`)
-
-## ▶ How to Run
-```bash
-
-```
+Creating a file
+Writing data to a file
+Reading data from a file
+Appending data to a file
+🛠 Concepts Used
+fopen()
+fclose()
+fprintf()
+fscanf()
+fgets()
+File modes (r, w, a)
+▶ How to Run
+Bash
+Copy code
 gcc file_handling.c -o file
 ./file
-✅ TASK 2 – Linked List Implementation
+✅ Task 2 – Linked List Implementation
 📖 Description
 This program implements a Singly Linked List in C with the following operations:
 Insertion at Beginning
@@ -59,7 +48,7 @@ Bash
 Copy code
 gcc linked_list.c -o list
 ./list
-✅ TASK 3 – Lexical Analyzer (Compiler Design Basics)
+✅ Task 3 – Lexical Analyzer (Compiler Design Basics)
 📖 Description
 This program implements a simple Lexical Analyzer that reads an input file and identifies:
 Keywords
@@ -77,10 +66,10 @@ Bash
 Copy code
 gcc lexical_analyzer.c -o lexer
 ./lexer
-✅ TASK 4 – Data Compression Tool (Run-Length Encoding)
+✅ Task 4 – Data Compression Tool (Run-Length Encoding)
 📖 Description
 This program implements a basic Data Compression Tool using the Run-Length Encoding (RLE) algorithm.
-Features:
+✨ Features
 Compresses repeated characters
 Decompresses compressed text
 Works with text files
